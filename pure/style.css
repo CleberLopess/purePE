@@ -1,0 +1,273 @@
+h1, h2, h3, h4, h5, p, strong, b, a {
+    font-family: "Nunito", Sans-serif;
+
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+strong{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.article-button{
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    margin: 15% 0% -15% 0%;
+}
+
+.article-a{
+    background-color: #FEB647; 
+    color: black; 
+    border-radius: 3px; 
+    padding: 12px 24px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+
+
+
+
+/* ______________________________________________________________________________________________ */
+
+.body{
+    background-size: auto;
+    margin: 0rem;
+}
+
+.article01{
+    background-image: url(images/BG-1-mobile.png); 
+    background-position: top center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 0% 0% 50% 0%;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    color: #ffffff;
+}
+
+.article-01-section-01{
+    max-width: 1120px; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 60px 0px 0px 0px; 
+    width: 100%;
+}
+
+.article01-div01{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.article01-logoProenem{
+    width: 70%;
+    margin: 15px 0% 0% 0%;
+}
+
+.article01-div02{
+    margin: 24% 0% 20px 0%;
+    padding: 12px 12px 12px 12px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.article01-logoAulão{
+    width: 100%;
+}
+
+.article01-text01{
+    margin: 0% 10% 0% 10%; 
+    text-align: center;
+}
+
+.article01-button{
+    margin: 15% 0% -15% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ______________________________________________________________________________________________ */
+
+.article02-section01{
+    margin: auto; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding: 0% 3% 0% 3%;
+    transition-timing-function: cubic-bezier(0,.33,.07,1.03);
+    transition-duration: 1s;
+    transition-property: transform,opacity,-webkit-transform;
+    --translateY: 38.8651px;
+    transform: translateY(var(--translateY));
+}
+
+.article02-div01{
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.article02-h2{
+    color: #4b1451; 
+    font-weight: 900; 
+    font-size: 32px; 
+    letter-spacing: -0.1px;
+    line-height: 1;
+}
+
+.alticle02-p{
+    font-weight: bold;
+    margin: -10px 0px 30px 0px;
+}
+
+.article02-div01-div02{
+    color: #4b1451; 
+    text-align: left; 
+    margin-bottom: 1rem;
+    
+}
+
+.article02-divImg{
+    margin: 20% 0% 0% 0%;
+}
+
+.article02-img{
+    max-width: 100%; 
+    height: auto; 
+    display: inline-block; 
+    width: 733px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ______________________________________________________________________________________________ */
+
+.article03{
+    background-image: url(images/BG-2.png);  
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 5% 0% 14% 0%;
+}
+
+.article03-section01{
+    margin: auto; 
+    padding-top: 30px; 
+    padding-bottom: 10px; 
+    color: #ffffff;
+    padding: 10px;
+}
+
+.article03-title{
+    margin: 40% 0% 5% 0%; 
+    text-align: center;
+    color: #feb647; 
+}
+
+.article03-h2{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+    line-height: 1;
+    font-family: "Nunito", Sans-serif;
+    margin: 0;
+}
+
+.article03-divImg{
+    padding: 67px 67px 67px 67px;
+    margin: -40px 0px 0px 0px;
+}
+
+.article03-img{
+    max-width: 100%; 
+    height: auto; 
+    border: none;
+    display: inline-block; 
+    width: 733px;
+}
+
+.article03-lista{
+    margin: -10px 0px 30px 0px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Nunito Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.article03-divForm{
+    padding: 0px 15px 0px 15px;
+}
+
+.form-div{
+    padding-right: calc( 10px/2 );
+    padding-left: calc( 10px/2 );
+    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+.label{
+    line-height: 1.5em;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    color: #7a7a7a;
+    font-family: "Nunito", Sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.input{
+    background-color: #ffffff;
+    flex-basis: 100%;
+    max-width: 100%;
+    border: 1px solid #818a91;
+    flex-grow: 1;
+    line-height: 2.4;
+}
+
+.article03-button{
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    margin: 2% 0% -15% 0%;
+}
+
+
+.article03-a{
+    background-color: #FEB647; 
+    color: black; 
+    border-radius: 3px; 
+    padding: 12px 24px; 
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
